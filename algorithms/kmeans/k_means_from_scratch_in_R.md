@@ -837,15 +837,3 @@ knitr::kable(comparison,
 | silhouette           |       0.7808 |        0.7808 |                     NA |
 | identical labels (%) |           NA |            NA |                    100 |
 | max centroid gap     |           NA |            NA |                      0 |
-
-Our Lloyd vs R’s Lloyd on the same 120 points.
-
-What to expect: the inertia difference is `0` to several decimals, label
-agreement is `100%`, and the centroid gap is around `1e-15` —
-floating-point noise, not disagreement. Both are running the same
-algorithm to the same fixed point, so anything larger means a real bug
-on our side.
-
-Iteration counts may differ by one or two: `kmeans` and `fit` apply
-slightly different stopping tests, and our final iteration exists purely
-to prove nothing moved.
