@@ -1,22 +1,30 @@
-# Foundation-Machine-Learning-Algorithms-from-Scratch
-A collection of fundamental machine learning algorithms implemented from scratch to deeply understand the underlying mathematics and concepts.
+<div align="center">
 
-## Purpose
-This repository serves as a learning journey through core ML concepts:
-- **Not** a library - these are educational implementations
-- **Deep understanding** through implementation
-- **Sharp statistical and programming skills**
-- **Cross-language capability** (R & Python)
+[![Stars](https://img.shields.io/github/stars/ftatarli/Foundation-Machine-Learning-Algorithms-from-Scratch?style=social)](https://github.com/ftatarli/Foundation-Machine-Learning-Algorithms-from-Scratch/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/ftatarli/Foundation-Machine-Learning-Algorithms-from-Scratch?color=yellow)](https://github.com/ftatarli/Foundation-Machine-Learning-Algorithms-from-Scratch/commits/main)
 
-## Projects
+</div>
 
-### 1. K-Means Clustering (R)
-Unsupervised learning algorithm for partitioning data into k clusters.
+# Foundation: Machine Learning Algorithms from Scratch 🤖
 
-**Concepts covered:**
-- Distance metrics (Euclidean)
-- Centroid initialization strategies
-- Convergence criteria
-- Clustering evaluation metrics
+### 🔍 Pure code, no packages — the goal is to see every moving part, not to be fast
 
-[Read more →](./K_means/README.md)
+These implementations are deliberately transparent, not production-grade. Loops are written out where a vectorized one-liner would hide the logic. If you want speed, use the library. If you want to understand *why* the library works, start here.
+
+## Contents
+
+| Algorithm | Python | R | Notes |
+| :-- | :--: | :--: | :-- |
+| [K-Means](algorithms/kmeans/) | - | [`kmeans.Rmd`](algorithms/kmeans/k_means_from_scratch_in_R.md) | Lloyd's algorithm, k-means++ init, inertia & elbow |
+| [Linear Regression](algorithms/linear_regression/) | - | - | Normal equation, gradient descent, ridge penalty |
+| [Decision Tree](algorithms/decision_tree/) | - | - | Gini & entropy, recursive splitting, pruning |
+
+## Roadmap
+
+- [x] K-Means
+- [ ] Linear Regression
+- [ ] Decision Tree
+
+<div align="center">
+If this repo helped you understand something, a ⭐ goes a long way.
+</div>
