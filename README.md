@@ -15,15 +15,15 @@ These implementations are deliberately transparent, not production-grade. Loops 
 
 | Algorithm | Python | R | Notes |
 | :-- | :--: | :--: | :-- |
-| [K-Means](algorithms/kmeans/) | - | [`kmeans.Rmd`](algorithms/kmeans/k_means_from_scratch_in_R.md) | Lloyd's algorithm, k-means++ init, inertia & elbow |
-| [Linear Regression](algorithms/linear_regression/) | - | - | Normal equation, gradient descent, ridge penalty |
-| [Decision Tree](algorithms/decision_tree/) | - | - | Gini & entropy, recursive splitting, pruning |
+| [K-Means](algorithms/kmeans/) | - | [`code.md`](algorithms/kmeans/k_means_from_scratch_in_R.md) | Lloyd's algorithm, k-means++ init, inertia & elbow |
+| [Linear Regression](algorithms/linear_regression/) | [`code.md`](algorithms/lin_reg/lin_reg_from_scratch_in_python.md) | - | Normal equation, gradient descent, ridge penalty |
+| [Decision Tree](algorithms/decision_tree/) | [`code.md`](algorithms/lin_reg/decision_tree.md) | - | Gini & entropy, recursive splitting, pruning |
 
 ## Roadmap
 
 - [x] K-Means
-- [ ] Linear Regression
-- [ ] Decision Tree
+- [x] Linear Regression
+- [x] Decision Tree
 
 <div align="center">
 If this repo helped you understand something, a ⭐ goes a long way.
